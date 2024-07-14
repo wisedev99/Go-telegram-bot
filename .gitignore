@@ -1,0 +1,32 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+bin/
+release/
+
+# Go specific
+*.log
+*.test
+*.prof
+
+# IDE specific
+.idea/
+.vscode/
+
+# Ignore binary executables for any OS
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories (Golang)
+/vendor/
+/Godeps/
+/vendor/
+/vendor/
